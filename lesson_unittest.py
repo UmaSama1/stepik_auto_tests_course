@@ -1,6 +1,5 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-import time
 import unittest
 
 
@@ -32,3 +31,4 @@ class Testwebsite(unittest.TestCase):
         button.click()
         self.assertEquals('Congratulations! You have successfully registered!',
                           self.browser.find_element(By.XPATH, '//h1').text)
+
