@@ -1,7 +1,7 @@
+import pytest
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 link = "http://selenium1py.pythonanywhere.com/"
-
 
 class TestMainPage1():
 
